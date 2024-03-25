@@ -12,7 +12,7 @@ const Navbar = () => {
 				<Link href='/' className='flex justify-center items-center'>
 					<Image src='/logo.svg' alt='CarDekho Logo' width={118} height={18} className='object-contain' />
 				</Link>
-                <Button title='Sign in' buttonType="button" containerStyles='text-primary-blue bg-white rounded-full min-w-[130px]' />
+                <Button title='Sign in' btnType="button" containerStyles='text-primary-blue bg-white rounded-full min-w-[130px]' />
 			</nav>
 		</header>
 	);
